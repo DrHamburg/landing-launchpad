@@ -7,7 +7,7 @@
     
 }
 .btn{
-    padding: 13px 18px;
+    padding: 13px 26px;
     border-radius: 8px;
     color: white;
     background-color: #4E47FF;
@@ -22,9 +22,12 @@ button:hover{
     background-color: whitesmoke;
     font-size: 15px;
     font-weight: 600;
-    padding: 13px 18px;
+    padding: 13px 26px;
     border-radius: 8px;
 }
+
+/* Header with Nav & Banner */
+
 header{
     background-image: url(Assets/Hero-bg.png);
     height: 678px;
@@ -73,4 +76,22 @@ header{
     margin: 150px auto;
     text-align: center;
     align-content: center;
+}
+
+/* Launching Section */
+
+#launching-sec{
+    display: flex;
+    width: 1280px;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 34px;
+}
+#launching-sec img{
+    border-radius: 40px;
+}
+#launching-sec p{
+    margin: 25px 0px;
+    color: #666571;
 }
