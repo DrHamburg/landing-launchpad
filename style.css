@@ -6,6 +6,9 @@
     font-style: normal;
     
 }
+body{
+    background-color: hsl(213, 100%, 98%);
+}
 .btn{
     padding: 13px 26px;
     border-radius: 8px;
@@ -25,7 +28,10 @@ button:hover{
     padding: 13px 26px;
     border-radius: 8px;
 }
-
+#font{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
 /* Header with Nav & Banner */
 
 header{
@@ -86,12 +92,41 @@ header{
     margin: 100px auto;
     justify-content: space-between;
     align-items: center;
-    font-size: 34px;
+    font-size: 40px;
 }
 #launching-sec img{
     border-radius: 40px;
 }
 #launching-sec p{
     margin: 25px 0px;
-    color: #666571;
+    color: #868589;
+    font-size: 30px;
+}
+
+/* Statistic section  */
+
+#stat-sec{
+    width: 1280px;
+    margin: auto;
+    justify-items: center;
+    background-color: #4d47ff21;
+    padding: 50px 0px;
+    border-radius: 40px;
+}
+
+#stat-sec h1{
+    font-size: 43px;
+}
+.statistics{
+    display: flex;
+    gap: 150px;
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: center;
+    color: #868589;
+}
+
+.statistics h2{
+    font-size: 90px;
+    color: #4E47FF;
 }
