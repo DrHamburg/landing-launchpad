@@ -155,3 +155,50 @@ header{
     margin: 15px 0px;
     color: #868589;
 }
+
+/* Login section  */
+#login-sec{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 550px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#login-sec h1{
+    font-size: 100px;
+}
+.login{
+    margin: 20px 0px;
+    padding: 20px 160px 20px 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(173, 170, 170);
+    font-size: 20px;
+}
+.textbox{
+    height: 100px;
+    
+}
+.log{
+    font-size: 18px;
+    padding: 17px 0px;
+}
+.log:hover{
+    color: #4E47FF;
+    border: 2px solid #4E47FF;
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 0px;
+    border-radius: 8px;
+}
+
