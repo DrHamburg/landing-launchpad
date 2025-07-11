@@ -110,7 +110,6 @@ a:hover{
     gap: 10px;
 }
 #launching-sec button img{
-    /* background-color: aliceblue; */
     height: 40px;
 }
 #launching-sec p{
@@ -169,7 +168,7 @@ a:hover{
 }
 
 .review{
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     background-color: white;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
@@ -183,9 +182,12 @@ a:hover{
     color: #868589;
 }
 
-.rev-div{
+.rev-div {
     margin: 15px 0px;
-    
+}
+
+.review p{
+    font-size: 16px;
 }
 
 /* Selling section  */
