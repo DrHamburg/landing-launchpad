@@ -32,6 +32,9 @@ button:hover{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 }
+.logo{
+    color: rgb(244, 193, 25);
+}
 /* Header with Nav & Banner */
 
 header{
@@ -42,7 +45,7 @@ header{
     display: flex;
     width: 1280px;
     margin: auto;
-    padding-top: 20px;
+    padding: 20px 0px;
     justify-content: space-between;
     height: 70px;
     align-items: center;
@@ -65,7 +68,8 @@ header{
 a:hover{
     color:black;
 }
-.nav-bar h1{
+.nav-bar h1 a{
+
     color: #4E47FF;
     font-weight: 900;
     font-size: 40px;
@@ -99,6 +103,15 @@ a:hover{
 }
 #launching-sec img{
     border-radius: 40px;
+}
+#launching-sec button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#launching-sec button img{
+    /* background-color: aliceblue; */
+    height: 40px;
 }
 #launching-sec p{
     margin: 25px 0px;
@@ -134,6 +147,47 @@ a:hover{
     color: #4E47FF;
 }
 
+
+/* Review Section  */
+
+#review-sec{
+    width: 1280px;
+    padding: 100px 0px 50px 0px;
+    margin:  auto;
+    justify-items: center;
+    
+}
+
+#review-sec h1{
+    margin: 50px 0px 80px 0px;
+    font-size: 50px;
+}
+.users-review{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.review{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+.review img{
+    display: inline-block;
+}
+.users{
+    display: flex;
+    gap: 20px;
+    color: #868589;
+}
+
+.rev-div{
+    margin: 15px 0px;
+    
+}
+
 /* Selling section  */
 #sell-sec{
     width: 1280px;
@@ -154,8 +208,8 @@ a:hover{
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
 }
 #sell-sec p{
-    font-size: 25px;
-    margin: 15px 0px;
+    font-size: 23px;
+    margin: 13px 0px;
     color: #868589;
 }
 
@@ -182,7 +236,7 @@ form{
 }
 .login{
     margin: 20px 0px;
-    padding: 20px 160px 20px 50px;
+    padding: 20px 180px 20px 30px;
     border-radius: 10px;
     border: 1px solid rgb(173, 170, 170);
     font-size: 20px;
@@ -228,6 +282,9 @@ footer ul,a{
     font-size: 20px;
     text-decoration: none;
     color: #868589;
+}
+footer span{
+    color:  rgb(244, 193, 25);
 }
 
 
