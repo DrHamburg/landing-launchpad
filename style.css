@@ -58,9 +58,12 @@ header{
 }
 .nav-bar a{
     text-decoration: none;
-    color: black;
+    color: rgb(80, 80, 80);
     font-size: 20px;
     font-weight: 600;
+}
+a:hover{
+    color:black;
 }
 .nav-bar h1{
     color: #4E47FF;
@@ -201,4 +204,30 @@ form{
     padding: 17px 0px;
     border-radius: 8px;
 }
+
+/* Footer Section  */
+
+footer{
+    justify-items: center;
+    text-align: center;
+    color: #868589;
+    padding: 100px 0px;
+    background-color: white;
+}
+footer h1{
+    font-size: 120px;
+    color: #4E47FF;
+}
+footer p{
+    margin: 10px 0px 50px 0px;
+}
+footer ul,a{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #868589;
+}
+
 
